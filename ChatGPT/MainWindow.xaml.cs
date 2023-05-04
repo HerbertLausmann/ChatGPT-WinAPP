@@ -27,7 +27,7 @@ namespace ChatGPT
         {
             CefSettings settings = new CefSettings();
             // path to directory 
-            string path = System.IO.Path.Combine(System.IO.Path.GetTempPath(), "gpt");
+            string path = System.IO.Path.Combine(System.IO.Path.GetTempPath(), "chatgpt-winapp");
 
             // Set the path 
             settings.CachePath = path;

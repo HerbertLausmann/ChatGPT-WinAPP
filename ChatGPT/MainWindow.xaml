@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ChatGPT"
         xmlns:cef="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
         mc:Ignorable="d"
-        Title="Chat GPT" Height="450" Width="800" WindowState="Maximized" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" PreviewKeyDown="Window_PreviewKeyDown">
+        Title="ChatGPT" Height="450" Width="800" WindowState="Maximized" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" PreviewKeyDown="Window_PreviewKeyDown">
     <Grid>
         <cef:ChromiumWebBrowser x:Name="browser"/>
     </Grid>
